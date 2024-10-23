@@ -4,7 +4,7 @@
 import json
 import random
 
-f = open("words.json", encoding="utf8")
+f = open("words".json, encoding="utf8")
 
 words = json.load(f)
 print(words.keys())
